@@ -15,12 +15,32 @@
     background-color: rgba(255, 166, 248, 0.904);
     width: 40%;
     text-align: center;
+    /* vertical-align: ; */
   }
+
+  #about-info{
+    display: flex;  
+  }
+
+  #footer{
+    height: 300px;
+    background-color:rgba(105, 208, 255, 0.212) ;
+    font-size: small;
+    text-align: center;
+  }
+
+  h1{
+    color: green;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
   h2{
+      color: rgb(9, 241, 9);
       text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   p{
-      text-align: center;
+      /* text-align: center; */
       font-family: 'Courier New', Courier, monospace;
       margin-left: 200px;
       margin-right: 200px;
@@ -29,7 +49,7 @@
   a {
       text-decoration: none;
     color: rgb(76, 0, 255);
-    font-size: 18px;
+    /* font-size: 18px; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
@@ -55,5 +75,29 @@
       text-align: center;
       border-color: chartreuse;
       border-radius:10px;
+}
 
+.small-round-picture{
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.cake-picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+div figure{
+    text-align: center;
+}
+
+.icon {
+    display: inline-grid;
+    row-gap: 50px;
+    margin-left: 10px; 
 }
